@@ -18,7 +18,8 @@ var config = {
             'routing' : '.routing.ts',
             'service' : '.service.ts',
             'style' : '.component.',
-            'spec' : '.spec.ts'
+            'spec' : '.spec.ts',
+            'serviceSpec' : '.spec.ts'
         },
         map : {
             component : {
@@ -68,6 +69,9 @@ var config = {
             },
             spec : {
                 spec : 'spec.ts'
+            },
+            serviceSpec : {
+                spec : 'service.spec.ts'
             }
         }
     },
@@ -146,7 +150,9 @@ var config = {
                 'm' : 'module',
                 'p' : 'pipe',
                 'r' : 'route',
-                's' : 'service'
+                's' : 'service',
+                'sp' : 'spec',
+                'ssp' : 'serviceSpec'
             },
             flags : {
                 '-b' : '--bootstrap',

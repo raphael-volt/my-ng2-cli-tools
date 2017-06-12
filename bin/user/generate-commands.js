@@ -37,6 +37,7 @@ var generateCommandsModule = {
             case 'service':
             case 'style':
             case 'spec':
+            case 'serviceSpec':
                 generateCommandsModule.generateComponent(blueprintType, blueprintName, vFlags);
                 break;
             case undefined:

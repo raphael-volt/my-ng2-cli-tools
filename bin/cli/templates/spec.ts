@@ -1,6 +1,6 @@
 import { TestBed, async, inject } from '@angular/core/testing';
 import { $PascalCaseName$ } from './$name$.ts';
-// how update ???
+
 describe('$PascalCaseName$Test', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
