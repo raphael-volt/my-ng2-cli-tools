@@ -35,7 +35,7 @@ mng g serviceSpec my-service
 ```
 Or using the shorthand alias :
 ```
-mng g ssp my-class
+mng g ssp my-service
 ```
 Output :
 ```typescript
